@@ -1,0 +1,706 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\dtos\\eventdto\\posteventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\dtos\\eventdto\\posteventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\dtos\\eventdto\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\dtos\\eventdto\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\dtos\\eventdto\\createeventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\dtos\\eventdto\\createeventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\dtos\\registrationdto\\createregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\dtos\\registrationdto\\createregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\repositories\\implementations\\registrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\repositories\\implementations\\registrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\dtos\\registrationdto\\registrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\dtos\\registrationdto\\registrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\repositories\\implementations\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\repositories\\implementations\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\repositories\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\repositories\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\repositories\\interfaces\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\repositories\\interfaces\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\dtos\\organizer\\organizerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\dtos\\organizer\\organizerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\dtos\\venuedto\\createvenuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\dtos\\venuedto\\createvenuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\dtos\\venuedto\\venuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\dtos\\venuedto\\venuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\dtos\\userdto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\dtos\\userdto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\dtos\\userdto\\userevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\dtos\\userdto\\userevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\dtos\\registrationdto\\simplifiedregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\dtos\\registrationdto\\simplifiedregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\models\\reponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\models\\reponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\helperclass\\jwttokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\helperclass\\jwttokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\dtos\\paymentdto\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\dtos\\paymentdto\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\repositories\\implementations\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\repositories\\implementations\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\repositories\\interfaces\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\repositories\\interfaces\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\repositories\\interfaces\\ivenuerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\repositories\\interfaces\\ivenuerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\repositories\\implementations\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\repositories\\implementations\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\repositories\\implementations\\venuerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\repositories\\implementations\\venuerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\repositories\\implementations\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\repositories\\implementations\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\repositories\\interfaces\\iapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\repositories\\interfaces\\iapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\repositories\\implementations\\applicationuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\repositories\\implementations\\applicationuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|c:\\users\\hp\\desktop\\event_reg_5.1\\shubhamyache\\eventregistrationwebapi\\eventregistrationwebapi\\customvalidations\\futuredateattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44006DAF-5256-463A-A71B-AA24A9B611CD}|EventRegistrationWebAPI\\EventRegistrationWebAPI.csproj|solutionrelative:eventregistrationwebapi\\customvalidations\\futuredateattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Controllers\\EventController.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Controllers\\EventController.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAuwE8AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T19:37:38.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateEventDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\EventDto\\CreateEventDto.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\DTOs\\EventDto\\CreateEventDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\EventDto\\CreateEventDto.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\DTOs\\EventDto\\CreateEventDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T02:03:21.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegistrationController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Controllers\\RegistrationController.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Controllers\\RegistrationController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Controllers\\RegistrationController.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Controllers\\RegistrationController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwBEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T19:37:40.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\EventDto\\EventDto.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\DTOs\\EventDto\\EventDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\EventDto\\EventDto.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\DTOs\\EventDto\\EventDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T02:03:29.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PostEventDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\EventDto\\PostEventDto.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\DTOs\\EventDto\\PostEventDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\EventDto\\PostEventDto.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\DTOs\\EventDto\\PostEventDto.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAywDIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T05:03:01.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Models\\Registration.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Models\\Registration.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Models\\Registration.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Models\\Registration.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAiwCEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T20:03:33.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Program.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Program.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAHQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T02:19:23.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Models\\Event.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Models\\Event.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T19:30:18.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegistrationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Implementations\\RegistrationRepository.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Repositories\\Implementations\\RegistrationRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Implementations\\RegistrationRepository.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Repositories\\Implementations\\RegistrationRepository.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAlwFAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T19:43:02.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateRegistrationDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\RegistrationDto\\CreateRegistrationDto.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\DTOs\\RegistrationDto\\CreateRegistrationDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\RegistrationDto\\CreateRegistrationDto.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\DTOs\\RegistrationDto\\CreateRegistrationDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T01:23:20.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegistrationDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\RegistrationDto\\RegistrationDto.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\DTOs\\RegistrationDto\\RegistrationDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\RegistrationDto\\RegistrationDto.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\DTOs\\RegistrationDto\\RegistrationDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T01:23:24.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Implementations\\EventRepository.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Repositories\\Implementations\\EventRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Implementations\\EventRepository.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Repositories\\Implementations\\EventRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T02:05:54.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Repositories\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Repositories\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T02:22:46.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IEventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Interfaces\\IEventRepository.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Repositories\\Interfaces\\IEventRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Interfaces\\IEventRepository.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Repositories\\Interfaces\\IEventRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T02:07:43.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrganizerDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\Organizer\\OrganizerDto.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\DTOs\\Organizer\\OrganizerDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\Organizer\\OrganizerDto.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\DTOs\\Organizer\\OrganizerDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T05:04:28.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\UserDto\\UserDto.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\DTOs\\UserDto\\UserDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\UserDto\\UserDto.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\DTOs\\UserDto\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T05:03:46.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserEvent.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\UserDto\\UserEvent.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\DTOs\\UserDto\\UserEvent.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\UserDto\\UserEvent.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\DTOs\\UserDto\\UserEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T05:03:49.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateVenueDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\VenueDto\\CreateVenueDto.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\DTOs\\VenueDto\\CreateVenueDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\VenueDto\\CreateVenueDto.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\DTOs\\VenueDto\\CreateVenueDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T03:01:18.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VenueDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\VenueDto\\VenueDto.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\DTOs\\VenueDto\\VenueDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\VenueDto\\VenueDto.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\DTOs\\VenueDto\\VenueDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T03:01:02.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SimplifiedRegistrationDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\RegistrationDto\\SimplifiedRegistrationDto.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\DTOs\\RegistrationDto\\SimplifiedRegistrationDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\RegistrationDto\\SimplifiedRegistrationDto.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\DTOs\\RegistrationDto\\SimplifiedRegistrationDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T01:23:32.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Mapper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Mapper\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Mapper\\MappingProfile.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Mapper\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T19:39:21.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PaymentDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\PaymentDto\\PaymentDto.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\DTOs\\PaymentDto\\PaymentDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\DTOs\\PaymentDto\\PaymentDto.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\DTOs\\PaymentDto\\PaymentDto.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T07:15:14.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Reponse.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Models\\Reponse.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Models\\Reponse.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Models\\Reponse.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Models\\Reponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T20:05:04.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Models\\Payment.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Models\\Payment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T20:03:41.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "JwtTokenHelper.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\HelperClass\\JwtTokenHelper.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\HelperClass\\JwtTokenHelper.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\HelperClass\\JwtTokenHelper.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\HelperClass\\JwtTokenHelper.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T20:05:43.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Venue.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Models\\Venue.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Models\\Venue.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Models\\Venue.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Models\\Venue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T20:04:55.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "VenueController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Controllers\\VenueController.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Controllers\\VenueController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Controllers\\VenueController.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Controllers\\VenueController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAswDcAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T02:58:19.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T19:49:59.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IPaymentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Interfaces\\IPaymentRepository.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Repositories\\Interfaces\\IPaymentRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Interfaces\\IPaymentRepository.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Repositories\\Interfaces\\IPaymentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T02:56:52.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Implementations\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Repositories\\Implementations\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Implementations\\UnitOfWork.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Repositories\\Implementations\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T02:52:34.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "VenueRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Implementations\\VenueRepository.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Repositories\\Implementations\\VenueRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Implementations\\VenueRepository.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Repositories\\Implementations\\VenueRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T02:45:47.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IVenueRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Interfaces\\IVenueRepository.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Repositories\\Interfaces\\IVenueRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Interfaces\\IVenueRepository.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Repositories\\Interfaces\\IVenueRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T02:53:03.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Implementations\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Repositories\\Implementations\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Implementations\\GenericRepository.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Repositories\\Implementations\\GenericRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAWwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T02:46:38.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PaymentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Implementations\\PaymentRepository.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Repositories\\Implementations\\PaymentRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Implementations\\PaymentRepository.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Repositories\\Implementations\\PaymentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T02:55:17.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Interfaces\\IApplicationUser.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Repositories\\Interfaces\\IApplicationUser.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Interfaces\\IApplicationUser.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Repositories\\Interfaces\\IApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T02:55:35.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ApplicationUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Implementations\\ApplicationUserRepository.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Repositories\\Implementations\\ApplicationUserRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Repositories\\Implementations\\ApplicationUserRepository.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Repositories\\Implementations\\ApplicationUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T02:55:23.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAswBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T19:55:47.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "FutureDateAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\CustomValidations\\FutureDateAttribute.cs",
+              "RelativeDocumentMoniker": "EventRegistrationWebAPI\\CustomValidations\\FutureDateAttribute.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Event_Reg_5.1\\ShubhamYache\\EventRegistrationWebAPI\\EventRegistrationWebAPI\\CustomValidations\\FutureDateAttribute.cs",
+              "RelativeToolTip": "EventRegistrationWebAPI\\CustomValidations\\FutureDateAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T20:05:20.081Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 297,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
