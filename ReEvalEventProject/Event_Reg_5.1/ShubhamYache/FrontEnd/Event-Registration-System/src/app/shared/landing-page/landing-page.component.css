@@ -1,0 +1,67 @@
+.carousel-inner img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.btn-explore {
+  font-size: 20px;
+  padding: 15px 30px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-explore:hover {
+  background-color: #0056b3;
+}
+
+.login-signup-btns {
+  margin-top: 20px;
+}
+
+.info-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.info-section p {
+  font-size: 18px;
+  color: #6c757d;
+}
+/* Set fixed size for the carousel container */
+#landingCarousel {
+  max-width: 1400px;
+  height: 500px; /* Fixed height for the carousel */
+  margin: 0 auto; /* Center the carousel */
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow */
+}
+
+/* Ensure the images fit the carousel container */
+.carousel-inner img {
+  height: 100%; /* Image will fill the height of the carousel */
+  width: 100%; /* Image will fill the width of the carousel */
+  object-fit: cover; /* Maintain aspect ratio and ensure the image covers the entire container */
+  object-position: center; /* Center the image within the carousel */
+}
+
+/* Styling for the carousel control buttons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

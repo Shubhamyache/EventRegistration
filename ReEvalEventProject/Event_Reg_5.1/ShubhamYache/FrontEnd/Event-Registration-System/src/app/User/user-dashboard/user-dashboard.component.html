@@ -1,0 +1,33 @@
+<div class="container mt-5">
+  <!-- Dashboard Header Section -->
+  <div class="card mb-4 shadow-sm p-4 text-center">
+    <h2 class="welcome-message">Welcome, {{ username }}!</h2>
+    <p class="lead">
+      Here’s a quick overview of your registered events and actions you can
+      take.
+    </p>
+  </div>
+
+  <!-- Explore Events Section -->
+  <div class="card mb-4 shadow-sm p-4 text-center">
+    <h3 class="mb-3">Explore More Events</h3>
+    <button
+      class="btn btn-lg btn-primary explore-btn"
+      (click)="exploreEvents()"
+    >
+      Explore Events
+    </button>
+  </div>
+
+  <!-- Registered Events Section -->
+  <div class="card mb-4 shadow-sm p-4">
+    <h3 class="mb-4 text-center">Your Registered Events</h3>
+
+    <!-- Registration List -->
+    <div class="row">
+      <div class="col-md-12">
+        <app-registration-list></app-registration-list>
+      </div>
+    </div>
+  </div>
+</div>

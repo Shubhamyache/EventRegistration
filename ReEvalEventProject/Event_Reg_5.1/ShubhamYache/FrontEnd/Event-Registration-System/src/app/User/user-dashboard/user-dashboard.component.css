@@ -1,0 +1,45 @@
+/* Centering and styling the Explore Events button */
+.explore-btn {
+  font-size: 1.5rem;
+  padding: 15px 30px;
+  background-color: #007bff;
+  border-radius: 50px;
+  transition: background-color 0.5s ease;
+}
+
+.explore-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for section headings */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.welcome-message {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.explore-btn {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+}
+
+.card {
+  border-radius: 8px;
+}
+
+.lead {
+  font-size: 1.2rem;
+  color: #6c757d;
+}

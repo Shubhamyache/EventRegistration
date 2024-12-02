@@ -1,0 +1,12 @@
+.container {
+  max-width: 800px;
+}
+
+button {
+  padding: 15px;
+  font-size: 18px;
+}
+
+h2 {
+  margin-bottom: 40px;
+}

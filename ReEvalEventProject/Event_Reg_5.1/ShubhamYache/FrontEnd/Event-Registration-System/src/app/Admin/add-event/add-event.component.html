@@ -1,0 +1,362 @@
+<div class="container d-flex align-items-center justify-content-center">
+  <div class="row col-8 justify-content-center my-4">
+    <div class="col-12">
+      <div
+        class="card mt-1"
+        style="border-color: #2c6676; overflow: hidden; border-radius: 15px"
+      >
+        <div class="card-body p-4">
+          <form [formGroup]="eventForm" (ngSubmit)="onSubmit()">
+            <h2 class="mb-4 text-center">Create New Event</h2>
+
+            <!-- Event Name -->
+            <div class="row mb-3">
+              <div class="col">
+                <label for="eventName" class="form-label"
+                  >Event Name <span class="text-danger">*</span></label
+                >
+                <input
+                  formControlName="eventName"
+                  type="text"
+                  class="form-control"
+                  id="eventName"
+                  (focus)="resetWarnings('eventNameWarn')"
+                />
+                <small class="text-danger" id="eventNameWarn">{{
+                  eventNameWarn
+                }}</small>
+              </div>
+            </div>
+
+            <!-- Category -->
+            <div class="row mb-3">
+              <div class="col">
+                <label for="category" class="form-label"
+                  >Category <span class="text-danger">*</span></label
+                >
+                <select
+                  formControlName="category"
+                  class="form-select"
+                  id="category"
+                  (focus)="resetWarnings('categoryWarn')"
+                >
+                  <option selected disabled value="">Select a category</option>
+                  <option *ngFor="let cat of categories" [value]="cat">
+                    {{ cat }}
+                  </option>
+                </select>
+                <small class="text-danger" id="categoryWarn">{{
+                  categoryWarn
+                }}</small>
+              </div>
+            </div>
+
+            <!-- Venue -->
+            <div class="row mb-3">
+              <div class="col">
+                <label for="venueId" class="form-label"
+                  >Venue <span class="text-danger">*</span></label
+                >
+                <select
+                  formControlName="venueId"
+                  class="form-select"
+                  id="venueId"
+                  (focus)="resetWarnings('venueIdWarn')"
+                >
+                  <option selected disabled value="">Select a Venue</option>
+                  <option *ngFor="let venue of venues" [value]="venue.venueId">
+                    {{ venue.venueName }} - {{ venue.city }}
+                  </option>
+                </select>
+                <small class="text-danger" id="venueIdWarn">{{
+                  venueIdWarn
+                }}</small>
+              </div>
+            </div>
+
+            <div class="form-group mb-3">
+              <label for="minimumAge">Minimum Age:</label>
+              <input
+                id="minimumAge"
+                formControlName="minimumAge"
+                type="number"
+                class="form-control"
+                value="null"
+                min="0"
+                max="21"
+              />
+              <small class="text-danger" id="minimumAgeWarn">{{
+                minimumAgeWarn
+              }}</small>
+            </div>
+
+            <div class="form-group mb-3">
+              <label for="hashtag">Hashtag (optional)</label>
+              <input
+                id="hashtag"
+                formControlName="hashtag"
+                type="text"
+                class="form-control"
+                placeholder="Enter hashtag"
+              />
+            </div>
+
+            <div class="form-group mb-3">
+              <label for="description"
+                >Description <span class="text-danger">*</span></label
+              >
+              <input
+                type="text"
+                id="description"
+                formControlName="description"
+                rows="3"
+                class="form-control"
+                placeholder="Enter event description"
+              />
+              <small class="text-danger" id="descriptionWarn">{{
+                descriptionWarn
+              }}</small>
+            </div>
+
+            <!-- Date -->
+            <div class="row mb-3">
+              <div class="col">
+                <label for="eventStartDateTime" class="form-label"
+                  >Event Start Date and Time
+                  <span class="text-danger">*</span></label
+                >
+                <input
+                  formControlName="eventStartDateTime"
+                  type="datetime-local"
+                  class="form-control"
+                  id="eventStartDateTime"
+                  (focus)="resetWarnings('eventStartDateTimeWarn')"
+                />
+                <small class="text-danger" id="eventStartDateTimeWarn">{{
+                  eventStartDateTimeWarn
+                }}</small>
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <div class="col">
+                <label for="eventEndDateTime" class="form-label"
+                  >Event End Date and Time
+                  <span class="text-danger">*</span></label
+                >
+                <input
+                  formControlName="eventEndDateTime"
+                  type="datetime-local"
+                  class="form-control"
+                  id="eventEndDateTime"
+                  (focus)="resetWarnings('eventEndDateTimeWarn')"
+                />
+                <small class="text-danger" id="eventEndDateTimeWarn">{{
+                  eventEndDateTimeWarn
+                }}</small>
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <div class="col">
+                <label for="registrationCloseDate" class="form-label"
+                  >Last Date to register
+                  <span class="text-danger">*</span></label
+                >
+                <input
+                  formControlName="registrationCloseDate"
+                  type="datetime-local"
+                  class="form-control"
+                  id="registrationCloseDate"
+                  (focus)="resetWarnings('registrationCloseDateWarn')"
+                />
+                <small class="text-danger" id="registrationCloseDateWarn">{{
+                  registrationCloseDateWarn
+                }}</small>
+              </div>
+            </div>
+
+            <!-- //take image as input from user -->
+            <div class="row mb-3">
+              <div class="col">
+                <label for="imageUrl" class="form-label">
+                  Event Image URL
+                  <span class="text-danger">*</span>
+                </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="imageUrl"
+                  formControlName="imageUrl"
+                  placeholder="Enter Image URL"
+                />
+                <small
+                  class="text-danger"
+                  *ngIf="
+                    eventForm.get('imageUrl')!.invalid &&
+                    eventForm.get('imageUrl')!.touched
+                  "
+                >
+                  Image URL is required
+                </small>
+              </div>
+            </div>
+
+            <!-- Platinum Tickets -->
+            <div class="row mb-3">
+              <div class="col">
+                <label for="platinumTicketsNumber" class="form-label"
+                  >Number of Platinum Tickets
+                  <span class="text-danger">*</span></label
+                >
+                <input
+                  formControlName="platinumTicketsNumber"
+                  type="number"
+                  min="0"
+                  max="10"
+                  step="1"
+                  class="form-control w-50"
+                  id="platinumTicketsNumber"
+                  (focus)="resetWarnings('platinumTicketsNumberWarn')"
+                />
+                <small class="text-danger" id="platinumTicketsNumberWarn">{{
+                  platinumTicketsNumberWarn
+                }}</small>
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <div class="col">
+                <label for="platinumTicketsPrice" class="form-label"
+                  >Platinum Tickets Price
+                  <span class="text-danger">*</span></label
+                >
+                <input
+                  formControlName="platinumTicketsPrice"
+                  type="number"
+                  min="0"
+                  max="10"
+                  step="1"
+                  class="form-control w-50"
+                  id="platinumTicketsPrice"
+                  (focus)="resetWarnings('platinumTicketsPriceWarn')"
+                />
+                <small class="text-danger" id="platinumTicketsPriceWarn">{{
+                  platinumTicketsPriceWarn
+                }}</small>
+              </div>
+            </div>
+
+            <!-- Gold Tickets -->
+            <div class="row mb-3">
+              <div class="col">
+                <label for="goldTicketsNumber" class="form-label"
+                  >Number of Gold Tickets
+                  <span class="text-danger">*</span></label
+                >
+                <input
+                  formControlName="goldTicketsNumber"
+                  type="number"
+                  min="0"
+                  max="10"
+                  step="1"
+                  class="form-control w-50"
+                  id="goldTicketsNumber"
+                  (focus)="resetWarnings('goldTicketsNumberWarn')"
+                />
+                <small class="text-danger" id="goldTicketsNumberWarn">{{
+                  goldTicketsNumberWarn
+                }}</small>
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <div class="col">
+                <label for="goldTicketsPrice" class="form-label"
+                  >Gold Tickets Price <span class="text-danger">*</span></label
+                >
+                <input
+                  formControlName="goldTicketsPrice"
+                  type="number"
+                  min="0"
+                  max="10"
+                  step="1"
+                  class="form-control w-50"
+                  id="goldTicketsPrice"
+                  (focus)="resetWarnings('goldTicketsPriceWarn')"
+                />
+                <small class="text-danger" id="goldTicketsPriceWarn">{{
+                  goldTicketsPriceWarn
+                }}</small>
+              </div>
+            </div>
+
+            <!-- Silver Tickets -->
+            <div class="row mb-3">
+              <div class="col">
+                <label for="silverTicketsNumber" class="form-label"
+                  >Number of Silver Tickets
+                  <span class="text-danger">*</span></label
+                >
+                <input
+                  formControlName="silverTicketsNumber"
+                  type="number"
+                  min="0"
+                  max="10"
+                  step="1"
+                  class="form-control w-50"
+                  id="silverTicketsNumber"
+                  (focus)="resetWarnings('silverTicketsPriceWarn')"
+                />
+                <small class="text-danger" id="silverTicketsPriceWarn">{{
+                  silverTicketsPriceWarn
+                }}</small>
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <div class="col">
+                <label for="silverTicketsPrice" class="form-label"
+                  >Silver Tickets Price
+                  <span class="text-danger">*</span></label
+                >
+                <input
+                  formControlName="silverTicketsPrice"
+                  type="number"
+                  min="0"
+                  max="10"
+                  step="1"
+                  class="form-control w-50"
+                  id="goldTicketsPrice"
+                  (focus)="resetWarnings('silverTicketsPriceWarn')"
+                />
+                <small class="text-danger" id="silverTicketsPriceWarn">{{
+                  silverTicketsPriceWarn
+                }}</small>
+              </div>
+            </div>
+
+            <div>
+              <small class="text-danger" id="totalTicketsWarn">{{
+                totalTicketsWarn
+              }}</small>
+            </div>
+
+            <div class="mb-3 d-flex justify-content-start">
+              <button type="submit" class="btn btn-primary mx-2">
+                Create Event
+              </button>
+              <button
+                type="reset"
+                class="btn btn-secondary mx-2"
+                (click)="resetAllWarnings()"
+              >
+                Reset Form
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

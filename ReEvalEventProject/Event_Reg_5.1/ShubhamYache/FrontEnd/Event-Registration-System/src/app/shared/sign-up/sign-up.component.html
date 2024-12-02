@@ -1,0 +1,208 @@
+<section class="h-100 bg-light">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col">
+        <div class="card card-registration animated-card my-4">
+          <div class="row g-0">
+            <div class="col-xl-8">
+              <div class="card-body p-md-5 text-black">
+                <h3 class="mb-5 text-uppercase animated-text">
+                  Create Your Account
+                </h3>
+
+                <form
+                  [formGroup]="signupForm"
+                  (ngSubmit)="onSubmit()"
+                  class="animated-form"
+                >
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <label class="form-label fw-bold" for="first-name"
+                          >First Name</label
+                        >
+                        <input
+                          type="text"
+                          id="first-name"
+                          formControlName="firstName"
+                          class="form-control form-control-lg"
+                          placeholder="Enter your First Name"
+                        />
+                        <div
+                          *ngIf="
+                            signupForm.get('firstName')!.invalid &&
+                            signupForm.get('firstName')!.touched
+                          "
+                          class="alert alert-danger mt-2"
+                        >
+                          First name is required.
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <label class="form-label fw-bold" for="last-name"
+                          >Last Name</label
+                        >
+                        <input
+                          type="text"
+                          id="last-name"
+                          formControlName="lastName"
+                          class="form-control form-control-lg"
+                          placeholder="Enter your Last Name"
+                        />
+                        <div
+                          *ngIf="
+                            signupForm.get('lastName')!.invalid &&
+                            signupForm.get('lastName')!.touched
+                          "
+                          class="alert alert-danger mt-2"
+                        >
+                          Last name is required.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-12 mb-4">
+                      <div class="form-outline">
+                        <label class="form-label fw-bold" for="email"
+                          >Email</label
+                        >
+                        <input
+                          type="email"
+                          id="email"
+                          formControlName="email"
+                          class="form-control form-control-lg"
+                          placeholder="Enter your Email"
+                        />
+                        <div
+                          *ngIf="
+                            signupForm.get('email')!.invalid &&
+                            signupForm.get('email')!.touched
+                          "
+                          class="alert alert-danger mt-2"
+                        >
+                          Please enter a valid email address.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-12 mb-4">
+                      <div class="form-outline">
+                        <label class="form-label fw-bold" for="phone-number"
+                          >Phone Number</label
+                        >
+                        <input
+                          type="text"
+                          id="phone-number"
+                          maxlength="10"
+                          formControlName="phoneNumber"
+                          class="form-control form-control-lg"
+                          placeholder="Personal Number"
+                        />
+                        <div
+                          *ngIf="
+                            signupForm.get('phoneNumber')!.invalid &&
+                            signupForm.get('phoneNumber')!.touched
+                          "
+                          class="alert alert-danger mt-2"
+                        >
+                          Please enter a valid phone number.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-12 mb-4">
+                      <div class="form-outline">
+                        <label class="form-label fw-bold" for="password"
+                          >Password</label
+                        >
+                        <input
+                          type="password"
+                          id="password"
+                          formControlName="password"
+                          class="form-control form-control-lg"
+                          placeholder="Enter password"
+                        />
+                        <div
+                          *ngIf="
+                            signupForm.get('password')!.invalid &&
+                            signupForm.get('password')!.touched
+                          "
+                          class="alert alert-danger mt-2"
+                        >
+                          Password must be at least 8 characters long and
+                          contain at least one uppercase letter, one lowercase
+                          letter, one number, and one special character.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-12 mb-4">
+                      <div class="form-outline">
+                        <label class="form-label fw-bold" for="confirm-password"
+                          >Confirm Password</label
+                        >
+                        <input
+                          type="password"
+                          id="confirm-password"
+                          formControlName="confirmPassword"
+                          class="form-control form-control-lg"
+                          placeholder="Re-enter your password"
+                        />
+                        <div
+                          *ngIf="
+                            signupForm.get('confirmPassword')!.invalid &&
+                            signupForm.get('confirmPassword')!.touched
+                          "
+                          class="alert alert-danger mt-2"
+                        >
+                          Passwords do not match.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="d-flex justify-content-end pt-3">
+                    <button
+                      type="button"
+                      class="btn btn-light btn-lg"
+                      (click)="signupForm.reset()"
+                    >
+                      Reset all
+                    </button>
+                    <button
+                      type="submit"
+                      class="btn btn-primary btn-lg ms-2 animated-button"
+                      [disabled]="signupForm.invalid"
+                    >
+                      Sign Up
+                    </button>
+                  </div>
+                </form>
+
+                <div class="text-center mt-3">
+                  <a
+                    [routerLink]="['/login']"
+                    class="btn btn-link text-decoration-none fw-bold text-primary"
+                  >
+                    Already have an account? Login
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,45 @@
+<div class="container mt-5">
+  <h2>All Events</h2>
+  <div class="form-group">
+    <label for="category">Filter by Category:</label>
+    <select
+      id="category"
+      class="form-control"
+      [(ngModel)]="selectedCategory"
+      (change)="onCategoryChange(selectedCategory)"
+    >
+      <option value="">All Categories</option>
+      <option *ngFor="let category of categories" [value]="category">
+        {{ category }}
+      </option>
+    </select>
+  </div>
+
+  <table class="table table-bordered table-striped mt-3">
+    <thead>
+      <tr>
+        <th>Event Name</th>
+        <th>Category</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let event of filteredEvents">
+        <td>{{ event.eventName }}</td>
+        <td>{{ event.category }}</td>
+        <td>{{ event.eventStartDateTime | date : "short" }}</td>
+        <td>{{ event.eventEndDateTime | date : "short" }}</td>
+        <td>{{ event.eventStatus }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <mat-paginator
+    [length]="totalLength"
+    [pageSize]="pageSize"
+    (page)="onPageChange($event)"
+  ></mat-paginator>
+</div>
+<div style="height: 240px"></div>

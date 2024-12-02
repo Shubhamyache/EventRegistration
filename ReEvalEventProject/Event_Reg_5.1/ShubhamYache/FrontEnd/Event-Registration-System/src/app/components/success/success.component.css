@@ -1,0 +1,27 @@
+.ticket-card {
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.ticket-card .card-header {
+  background-color: #007bff;
+  color: white;
+}
+
+.ticket-card .card-body p {
+  font-size: 1.2rem;
+}
+
+.ticket-card .card-body strong {
+  font-weight: 600;
+}
+
+.alert-success {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}

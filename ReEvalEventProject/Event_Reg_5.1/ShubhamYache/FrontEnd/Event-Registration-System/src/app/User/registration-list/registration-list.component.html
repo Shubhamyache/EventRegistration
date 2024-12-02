@@ -1,0 +1,61 @@
+<div *ngIf="registrations.length === 0">
+  <p>No registrations found.</p>
+</div>
+
+<!-- Current Bookings Section -->
+<h3 *ngIf="currentBookings.length > 0" class="mb-4">Current Bookings</h3>
+<div *ngFor="let registration of currentBookings" class="card mb-3">
+  <div class="card-body">
+    <h5 class="card-title">{{ registration.eventDetails.eventName }}</h5>
+    <p class="card-text">
+      Registration Date:
+      {{ registration.registrationDateTime }}
+    </p>
+    <p class="card-text">Status: {{ registration.registrationStatus }}</p>
+    <p class="card-text">
+      Tickets:
+      <span *ngIf="registration.platinumTicketsCount > 0"
+        >Platinum ({{ registration.platinumTicketsCount }})</span
+      >
+      <span *ngIf="registration.goldTicketsCount > 0"
+        >Gold ({{ registration.goldTicketsCount }})</span
+      >
+      <span *ngIf="registration.silverTicketsCount > 0"
+        >Silver ({{ registration.silverTicketsCount }})</span
+      >
+    </p>
+    <button
+      *ngIf="registration.registrationStatus !== 'Cancelled'"
+      class="btn btn-danger"
+      (click)="cancelRegistration(registration.registrationId)"
+    >
+      Cancel
+    </button>
+  </div>
+</div>
+
+<!-- Past Bookings Section -->
+<h3 *ngIf="pastBookings.length > 0" class="mb-4">Past Bookings</h3>
+<div *ngFor="let registration of pastBookings" class="card mb-3">
+  <div class="card-body">
+    <h5 class="card-title">{{ registration.event.eventName }}</h5>
+    <p class="card-text">
+      Registration Date:
+      {{ registration.registrationDateTime }}
+    </p>
+    <p class="card-text">Status: {{ registration.registrationStatus }}</p>
+    <p class="card-text">
+      Tickets:
+      <span *ngIf="registration.platinumTicketsCount > 0"
+        >Platinum ({{ registration.platinumTicketsCount }})</span
+      >
+      <span *ngIf="registration.goldTicketsCount > 0"
+        >Gold ({{ registration.goldTicketsCount }})</span
+      >
+      <span *ngIf="registration.silverTicketsCount > 0"
+        >Silver ({{ registration.silverTicketsCount }})</span
+      >
+    </p>
+    <!-- No Cancel Button for Past Bookings -->
+  </div>
+</div>

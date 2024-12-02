@@ -1,0 +1,45 @@
+<div class="container mt-5 mb-5">
+  <!-- Success Message -->
+  <div class="alert alert-success text-center">
+    <h2>Congratulations! Your Registration is Successful.</h2>
+    <p>Your ticket is ready for download.</p>
+  </div>
+
+  <!-- Ticket Section -->
+  <div
+    class="card ticket-card mx-auto mt-4 shadow-lg"
+    *ngIf="registrationDetails"
+  >
+    <div class="card-header text-center">
+      <h3>Event ID: {{ registrationDetails.eventId }}</h3>
+    </div>
+    <div class="card-body">
+      <p>
+        <strong>Registration Date:</strong>
+        {{
+          registrationDetails.registrationDateTime | date : "d MMM y, h:mm a"
+        }}
+      </p>
+      <p><strong>Ticket Number:</strong> {{ ticketNumber }}</p>
+      <p>
+        <strong>Platinum Tickets:</strong>
+        {{ registrationDetails.platinumTicketsCount }}
+      </p>
+      <p>
+        <strong>Gold Tickets:</strong>
+        {{ registrationDetails.goldTicketsCount }}
+      </p>
+      <p>
+        <strong>Silver Tickets:</strong>
+        {{ registrationDetails.silverTicketsCount }}
+      </p>
+    </div>
+  </div>
+
+  <!-- Download Button -->
+  <div class="text-center mt-4" *ngIf="registrationDetails">
+    <button class="btn btn-primary" (click)="downloadTicket()">
+      Download Ticket
+    </button>
+  </div>
+</div>

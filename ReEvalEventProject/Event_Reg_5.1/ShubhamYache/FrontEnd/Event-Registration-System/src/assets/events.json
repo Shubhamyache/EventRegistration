@@ -1,0 +1,373 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "name": "MaTa Presents Abhangawari By Rahul - Live In Pune",
+      "venue": "Pandit Farms, Pune",
+      "city": "Pune",
+      "date": "Wed, 19 Jul",
+      "time": "18:30",
+      "ticketPrice": 299,
+      "totalTickets": 100,
+      "ticketBooked": 6,
+      "artist": "Rahul Deshpande",
+      "organizer": {
+        "name": "MaTa",
+        "contact": "9876543210"
+      },
+      "image": "assets/images/event1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Guru Poornima Satsang with Vikram Hazra",
+      "venue": "Ganesh Kala Krida Manch, Pune",
+      "city": "Pune",
+      "date": "Sun, 23 Jul",
+      "time": "18:00",
+      "ticketPrice": 100,
+      "totalTickets": 200,
+      "ticketBooked": 0,
+      "artist": "Vikram Hazra",
+      "organizer": {
+        "name": "The Art of Living",
+        "contact": "9123456780"
+      },
+      "image": "assets/images/event2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Prateek Kuhad Silhouettes Tour - Mumbai",
+      "venue": "DOME NSCI SVP Stadium, Mumbai",
+      "city": "Mumbai",
+      "date": "Thu, 20 Jul",
+      "time": "19:00",
+      "ticketPrice": 1799,
+      "totalTickets": 100,
+      "ticketBooked": 0,
+      "artist": "Prateek Kuhad",
+      "organizer": {
+        "name": "BookMyShow",
+        "contact": "9876543210"
+      },
+      "image": "assets/images/event3.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Sagar Waali Qawwali Premium - Live in Mumbai",
+      "venue": "DOME NSCI SVP Stadium, Mumbai",
+      "city": "Mumbai",
+      "date": "Sat, 5 Aug",
+      "time": "18:00",
+      "ticketPrice": 499,
+      "totalTickets": 200,
+      "ticketBooked": 0,
+      "artist": "Sagar Bandhu",
+      "organizer": {
+        "name": "BookMyShow",
+        "contact": "9876543210"
+      },
+      "image": "assets/images/event4.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Hariharan Live In Concert - Pune- Live in Mumbai",
+      "venue": "Nesco Centre Hall 4, Mumbai",
+      "city": "Mumbai",
+      "date": "Sun, 23 Jul",
+      "time": "19:00",
+      "ticketPrice": 499,
+      "totalTickets": 300,
+      "ticketBooked": 1,
+      "artist": "Hariharan",
+      "organizer": {
+        "name": "Sunburn",
+        "contact": "9876543210"
+      },
+      "image": "assets/images/event9.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Alan Walker India Tour - Live from Hyderabad",
+      "venue": "Venue To Be Announced, Hyderabad",
+      "city": "Hyderabad",
+      "date": "Thu, 20 Jul",
+      "time": "Not specified",
+      "ticketPrice": 1000,
+      "totalTickets": 300,
+      "ticketBooked": 1,
+      "artist": "Alan Walker",
+      "organizer": {
+        "name": "skyLine Music",
+        "contact": "9911251153"
+      },
+      "image": "assets/images/event6.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Euphoria Band Live at Xora - See u in Hyderabad",
+      "venue": "Xora Bar & Kitchen, Hyderabad",
+      "date": "Upcoming",
+      "time": "Not specified",
+      "city": "Hyderabad",
+      "ticketPrice": 999,
+      "totalTickets": 300,
+      "ticketBooked": 0,
+      "artist": "Euphoria Band",
+      "organizer": {
+        "name": "Skull Group",
+        "contact": "7248239829"
+      },
+      "image": "assets/images/event7.jpg"
+    },
+    {
+      "id": "8",
+      "name": "MANGLI BIGGEST LIVE IN CONCERT MAYABAZAR",
+      "venue": "Xora Bar & Kitchen, Hyderabad",
+      "city": "Hyderabad",
+      "date": "fri, 09 Aug",
+      "time": "18:30",
+      "ticketPrice": 1499,
+      "totalTickets": 300,
+      "ticketBooked": 0,
+      "artist": "Nucleya",
+      "organizer": {
+        "name": "Not specified",
+        "contact": "Not specified"
+      },
+      "image": "assets/images/event8.jpg"
+    }
+  ],
+  "reg_users": [
+    {
+      "id": "edf7",
+      "firstName": "shubham",
+      "lastName": "yache",
+      "email": "yache@123",
+      "phone": "9370911982",
+      "age": 23,
+      "gender": "Male",
+      "platinumTickets": 1,
+      "silverTickets": 1,
+      "goldTickets": 1,
+      "payableAmount": 1497,
+      "paymentStatus": "pending",
+      "event_registered": 1
+    },
+    {
+      "id": "1551",
+      "firstName": "anupal",
+      "lastName": "umale",
+      "email": "anupal@gmail.com",
+      "phone": "659874566",
+      "age": 27,
+      "gender": "Male",
+      "platinumTickets": 1,
+      "silverTickets": 0,
+      "goldTickets": 0,
+      "payableAmount": 799,
+      "paymentStatus": "pending",
+      "event_registered": 1
+    },
+    {
+      "id": "2e3d",
+      "firstName": "atharva",
+      "lastName": "gulhane",
+      "email": "atharv@123",
+      "phone": "6574839324",
+      "age": 23,
+      "gender": "Male",
+      "platinumTickets": 0,
+      "silverTickets": 1,
+      "goldTickets": 0,
+      "event_registered": "4",
+      "payableAmount": 1499100,
+      "paymentStatus": "pending"
+    },
+    {
+      "id": "bde4",
+      "firstName": "rahul",
+      "lastName": "gandhi",
+      "email": "rahul@gmail.com",
+      "phone": "8765334429",
+      "age": 23,
+      "gender": "Male",
+      "platinumTickets": 1,
+      "silverTickets": 2,
+      "goldTickets": 3,
+      "payableAmount": 3694,
+      "paymentStatus": "pending",
+      "event_registered": "5"
+    },
+    {
+      "id": "82ca",
+      "firstName": "vijay",
+      "lastName": "hazare",
+      "email": "vijay@gmail.com",
+      "phone": "9876532892",
+      "age": 23,
+      "gender": "Male",
+      "platinumTickets": 2,
+      "silverTickets": 0,
+      "goldTickets": 0,
+      "payableAmount": 1200,
+      "paymentStatus": "done",
+      "event_registered": "2"
+    },
+    {
+      "id": "f79a",
+      "firstName": "dfgsdfg",
+      "lastName": "dfgdsfg",
+      "email": "fsdfg@we",
+      "phone": "896532145",
+      "age": 23,
+      "gender": "Male",
+      "platinumTickets": 1,
+      "silverTickets": 0,
+      "goldTickets": 1,
+      "payableAmount": 1098,
+      "paymentStatus": "done",
+      "event_registered": "1"
+    },
+    {
+      "id": "2752",
+      "firstName": "sana",
+      "lastName": "naikwade",
+      "email": "sana@gmail.com",
+      "phone": "9856235521",
+      "age": 22,
+      "gender": "Male",
+      "platinumTickets": 1,
+      "silverTickets": 0,
+      "goldTickets": 0,
+      "payableAmount": 799,
+      "paymentStatus": "done",
+      "event_registered": "1"
+    },
+    {
+      "id": "85e9",
+      "firstName": "pritam",
+      "lastName": "kumar",
+      "email": "pritam@gmail.com",
+      "phone": "89231134588",
+      "age": 23,
+      "gender": "Male",
+      "platinumTickets": 1,
+      "silverTickets": 1,
+      "goldTickets": 1,
+      "payableAmount": 1497,
+      "paymentStatus": "done",
+      "event_registered": "1"
+    },
+    {
+      "id": "0700",
+      "firstName": "priyanka",
+      "lastName": "k",
+      "email": "priyanka@gmail.com",
+      "phone": "8978232112",
+      "age": 28,
+      "gender": "Female",
+      "platinumTickets": 1,
+      "silverTickets": 1,
+      "goldTickets": 1,
+      "payableAmount": 1497,
+      "paymentStatus": "done",
+      "event_registered": "1"
+    },
+    {
+      "id": "7562",
+      "firstName": "pakhi",
+      "lastName": "sushman",
+      "email": "paki@gmail.com",
+      "phone": "8965223245",
+      "age": 23,
+      "gender": "Female",
+      "platinumTickets": 1,
+      "silverTickets": 0,
+      "goldTickets": 0,
+      "payableAmount": 999,
+      "paymentStatus": "done",
+      "event_registered": "5"
+    },
+    {
+      "id": "05da",
+      "firstName": "nikesh",
+      "lastName": "m",
+      "email": "nikesh@gmail.com",
+      "phone": "878763232",
+      "age": 32,
+      "gender": "Male",
+      "platinumTickets": 1,
+      "silverTickets": 0,
+      "goldTickets": 0,
+      "payableAmount": 1500,
+      "paymentStatus": "done",
+      "event_registered": "6"
+    }
+  ],
+  "payments": [
+    {
+      "id": "ef70",
+      "paymentMethod": "UPI",
+      "upiId": "9923014397@ybl",
+      "cardNumber": "",
+      "cardExpiry": "",
+      "cardCvv": ""
+    },
+    {
+      "id": "412b",
+      "paymentMethod": "UPI",
+      "upiId": "8974792239@ybk",
+      "cardNumber": "",
+      "cardExpiry": "",
+      "cardCvv": ""
+    },
+    {
+      "id": "b862",
+      "paymentMethod": "UPI",
+      "upiId": "67234632746@ybl",
+      "cardNumber": "",
+      "cardExpiry": "",
+      "cardCvv": ""
+    },
+    {
+      "id": "5923",
+      "paymentMethod": "UPI",
+      "upiId": "67234632746@ybl",
+      "cardNumber": "",
+      "cardExpiry": "",
+      "cardCvv": ""
+    },
+    {
+      "id": "4663",
+      "paymentMethod": "UPI",
+      "upiId": "67234632746@ybl",
+      "cardNumber": "",
+      "cardExpiry": "",
+      "cardCvv": ""
+    },
+    {
+      "id": "21f3",
+      "paymentMethod": "UPI",
+      "upiId": "6237463475@ybl",
+      "cardNumber": "",
+      "cardExpiry": "",
+      "cardCvv": ""
+    },
+    {
+      "id": "83e4",
+      "paymentMethod": "UPI",
+      "upiId": "5689@ybl",
+      "cardNumber": "",
+      "cardExpiry": "",
+      "cardCvv": ""
+    },
+    {
+      "id": "3600",
+      "paymentMethod": "UPI",
+      "upiId": "78273827@ybl",
+      "cardNumber": "",
+      "cardExpiry": "",
+      "cardCvv": ""
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+<div class="container-fluid">
+  <!-- Carousel -->
+  <div id="landingCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="assets/images/caro1.jpg"
+          class="d-block w-100"
+          alt="Event 1"
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="assets/images/caro2.webp"
+          class="d-block w-100"
+          alt="Event 2"
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="assets/images/caro3.jpg"
+          class="d-block w-100"
+          alt="Event 3"
+        />
+      </div>
+    </div>
+    <!-- Left and Right Controls -->
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#landingCarousel"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#landingCarousel"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#landingCarousel"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#landingCarousel"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Hero Section with buttons -->
+  <div class="hero-section">
+    <h1>Welcome to Eventus</h1>
+    <p>
+      Register for the best events around the world with ease and convenience.
+    </p>
+
+    <div class="login-signup-btns">
+      <button class="btn btn-outline-primary mx-2" (click)="goToLogin()">
+        Login
+      </button>
+      <button class="btn btn-outline-primary mx-2" (click)="goToSignup()">
+        Sign Up
+      </button>
+    </div>
+
+    <button class="btn-explore" (click)="exploreEvents()">
+      Explore Latest Events
+    </button>
+  </div>
+
+  <!-- Info Section -->
+  <div class="info-section">
+    <h2>About Us</h2>
+    <p>
+      Eventus is your one-stop platform for discovering, registering, and
+      managing event participation. Our goal is to provide you with the latest
+      events, an easy registration process, and real-time updates.
+    </p>
+  </div>
+</div>

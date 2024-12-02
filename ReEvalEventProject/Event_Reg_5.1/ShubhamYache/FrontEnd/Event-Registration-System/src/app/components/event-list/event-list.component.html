@@ -1,0 +1,50 @@
+<div class="container-fluid mt-4">
+  <div class="row">
+    <div class="col-md-3">
+      <!-- <app-filter (filterChanged)="onFilterChanged($event)"></app-filter> -->
+    </div>
+    <div class="col-md-9">
+      <!-- <app-search (searchQueryChanged)="onSearch($event)"></app-search> -->
+
+      <h2 class="mt-4 mb-5 custom-font">Exclusive Events</h2>
+      <div class="row">
+        <div class="col-md-4" *ngFor="let event of events">
+          <div class="card mb-4 shadow-sm">
+            <img
+              class="card-img-top"
+              [src]="event.imageUrl || 'assets/images/default-image.jpg'"
+              alt="{{ event.eventName }}"
+            />
+            <div class="card-body">
+              <h5 class="card-title">{{ event.eventName }}</h5>
+              <p class="card-text">
+                <i class="fa-solid fa-location-dot"></i>
+                {{ event.venue?.venueName || "Venue not available" }}
+              </p>
+              <p class="card-text">
+                {{ event.eventStartDateTime | date : "d MMM y" }} at
+                {{ event.eventStartDateTime | date : "shortTime" }}
+              </p>
+              <p class="card-text">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                Platinum:
+                {{ event.platinumTicketsPrice | currency : "INR" : "symbol" }}
+                <br />
+                Gold:
+                {{ event.goldTicketsPrice | currency : "INR" : "symbol" }}
+                <br />
+                Silver:
+                {{ event.silverTicketsPrice | currency : "INR" : "symbol" }}
+              </p>
+              <a
+                [routerLink]="['/event-details', event.eventId]"
+                class="btn btn-danger"
+                >Book Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
